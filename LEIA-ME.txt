@@ -1,0 +1,19 @@
+MOTIVAÇÃO 3.0 — PWA
+Este pacote contém uma versão inicial instalável como PWA.
+
+Para publicar:
+1. Hospede TODOS os arquivos desta pasta em um endereço HTTPS (por exemplo, GitHub Pages).
+2. Abra o endereço no Google Chrome do Android.
+3. Menu ⋮ > Instalar app (ou Adicionar à tela inicial).
+4. Abra pelo ícone MOTIVAÇÃO.
+
+Armazenamento:
+- Os vídeos importados são copiados para IndexedDB no armazenamento do navegador.
+- A galeria não envia os vídeos para um servidor.
+- Não é possível prometer armazenamento para sempre: limpar dados do Chrome, desinstalar/remover dados do app ou falta de espaço pode apagar arquivos.
+- Faça backup dos vídeos originais em outro local.
+
+Limitações desta versão:
+- É uma primeira versão funcional simples.
+- A instalação como PWA exige publicação em HTTPS; abrir index.html diretamente do gerenciador de arquivos não instala o PWA.
+- O suporte de instalação e modo offline varia conforme o navegador.
